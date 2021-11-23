@@ -185,4 +185,5 @@ https://jperaza.medium.com/validar-formularios-con-formik-y-yup-en-react-703b563
 
 npm install formik yup
 npm install react-bootstrap bootstrap
-npm install styled-components 
+npm install styled-components
+npm install react-papaparse 

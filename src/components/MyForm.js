@@ -1,4 +1,9 @@
 import React, {Fragment, useState} from 'react';
+import styled from 'styled-components';
+
+const DIVCONTAINER = styled.div`
+  margin-bottom: 30px;
+`;
 
 const MyForm = () => {
 
@@ -31,9 +36,11 @@ const MyForm = () => {
                 <div className="col-md-3">
                     <input type="text" placeholder="Nombre" className="form-control" onChange={handleInputChange} name="nombre"></input>
                 </div>
+                <DIVCONTAINER></DIVCONTAINER>
                 <div className="col-md-3">
                     <input type="text" placeholder="Apellido" className="form-control" onChange={handleInputChange} name="apellido"></input>
                 </div>
+                <DIVCONTAINER></DIVCONTAINER>
                 <button type="submit" className="btn btn-primary">Enviar</button>
             </form>
             <ul>
